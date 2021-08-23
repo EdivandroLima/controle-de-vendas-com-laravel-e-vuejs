@@ -2,7 +2,7 @@
 Projeto criado para a prática e estudo de Laravel + Vue.js. A aplicação é um sistema de controle de vendas com registro de categoria, registro de produto, registro de vendas e relatório de vendas diárias.
 
 ## Demonstração
-Visualizar demo: https://www.teste-1234.com.br<br>
+Visualizar demo: https://app-cvendas.herokuapp.com/<br>
 E-mail: adm@teste.com.br<br>
 Senha: 12345678
 
@@ -18,25 +18,25 @@ Senha: 12345678
 ## Instalação
 **Instale as dependências**
 ```
-$ composer install --no-scripts
+composer install --no-scripts
 ```
 **Copie o arquivo .env.example**
 ```
-$ copy .env.example .env
+copy .env.example .env
 ```
 **Crie uma nova chave para a aplicação** 
 ```
-$ php artisan key:generate
+php artisan key:generate
 ```
 **Configure o banco de dados (utilizei o MySQL) no arquivo .env e rodar os migrations com:**
 ```
-$ php artisan migrate
+php artisan migrate
 // ou com os seeders, populando o banco de dados
-$ php artisan migrate --seed
+php artisan migrate --seed
 ```
 **Iniciando a aplicação**
 ```
-$ php artisan serve
+php artisan serve
 ```
 
 ## API endpoints
@@ -94,7 +94,7 @@ Campos necessários para registrar uma venda
 Inserindo múltiplos registros “aleatórios” dentro do Banco de Dados
 ```
 // Executar o tinker
-$ php artisan tinker
+php artisan tinker
 
 // Gerar dados de categorias
 >>> App\Models\Categoria::factory(10)->create()
