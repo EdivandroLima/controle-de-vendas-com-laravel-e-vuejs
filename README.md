@@ -2,8 +2,8 @@
 Projeto criado para a prática e estudo de Laravel + Vue.js. A aplicação é um sistema de controle de vendas com registro de categoria, registro de produto, registro de vendas e relatório de vendas diárias.
 
 ## Demonstração
-Visualizar demo: https://www.teste-1234.com.br
-E-mail: adm@teste.com.br
+Visualizar demo: https://www.teste-1234.com.br<br>
+E-mail: adm@teste.com.br<br>
 Senha: 12345678
 
 ## Dependências Vue.js
