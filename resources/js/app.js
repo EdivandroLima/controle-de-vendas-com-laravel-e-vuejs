@@ -13,7 +13,7 @@ Vue.use(Dialog, {
 })
 Vue.use(VueMeta)
 Vue.filter('moeda', value => {
-    return value.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' });
+    return parseInt(value).toLocaleString("pt-BR", { minimumFractionDigits: 2 , style: 'currency', currency: 'BRL' });
 });
 
 Vue.component('app-layout', require('./components/layout/AppLayout.vue').default);
