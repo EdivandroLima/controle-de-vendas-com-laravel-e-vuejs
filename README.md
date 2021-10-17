@@ -6,6 +6,11 @@ Visualizar demo: https://app-cvendas.herokuapp.com/<br>
 E-mail: adm@teste.com.br<br>
 Senha: 12345678
 
+## Frameworks
+- Laravel v8
+- Vue.js v2
+- Bootstrap v4.6
+
 ## Dependências Vue.js
 - [VueRouter](https://www.npmjs.com/package/vue-router)
 - [Vuex](https://www.npmjs.com/package/vuex)
@@ -15,29 +20,6 @@ Senha: 12345678
 - [Bootstrap](https://www.npmjs.com/package/bootstrap)
 - [Fortawesome](https://www.npmjs.com/package/@fortawesome/fontawesome-free)
 
-## Instalação
-**Instale as dependências**
-```
-composer install --no-scripts
-```
-**Copie o arquivo .env.example**
-```
-copy .env.example .env
-```
-**Crie uma nova chave para a aplicação** 
-```
-php artisan key:generate
-```
-**Configure o banco de dados (utilizei o MySQL) no arquivo .env e rodar os migrations com:**
-```
-php artisan migrate
-// ou com os seeders, populando o banco de dados
-php artisan migrate --seed
-```
-**Iniciando a aplicação**
-```
-php artisan serve
-```
 
 ## API endpoints
 É necessário passar um token de API para as requisições
@@ -89,6 +71,33 @@ Campos necessários para registrar uma venda
 - 'valor_total'   (Obrigatório, númerico)
 - 'forma_pagamento'  (Obrigatório)
 - 'status'  (Obrigatório, boolean)
+
+## Modelo do banco de dados
+<img src="./docs/imgs/model-bd.png" width="500">
+
+## Instalação
+**Instale as dependências**
+```
+composer install --no-scripts
+```
+**Copie o arquivo .env.example**
+```
+copy .env.example .env
+```
+**Crie uma nova chave para a aplicação** 
+```
+php artisan key:generate
+```
+**Configure o banco de dados (utilizei o MySQL) no arquivo .env e rodar os migrations com:**
+```
+php artisan migrate
+// ou com os seeders, populando o banco de dados
+php artisan migrate --seed
+```
+**Iniciando a aplicação**
+```
+php artisan serve
+```
 
 ## Factories
 Inserindo múltiplos registros “aleatórios” dentro do Banco de Dados

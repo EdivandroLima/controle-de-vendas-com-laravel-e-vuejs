@@ -87,6 +87,7 @@
         max-width: 15%;
         transition: margin .5s;
         padding: 0;
+        background-color: #212529 !important;
     }
 
     .col-10 {
@@ -109,13 +110,16 @@
         .col-2 {
             margin-left: -15% !important;
         }
+
         .col-10 {
             min-width: 100% !important;
         }
+
         .links {
             text-align: center;
             padding: 4px 8px;
         }
+
         .links .btn {
             margin: 0 4px;
         }
@@ -136,6 +140,10 @@
 <style>
     #app {
         overflow: hidden;
+    }
+
+    .navbar {
+        background-color: #e36b13 !important
     }
 
 </style>

@@ -23905,7 +23905,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.col-2[data-v-be6e199e] {\n    max-width: 15%;\n    transition: margin .5s;\n    padding: 0;\n}\n.col-10[data-v-be6e199e] {\n    min-width: 85%;\n    transition: all .5s;\n    padding: 0;\n}\n.col-12[data-v-be6e199e] {\n    min-width: 100%;\n    transition: all .5s;\n    padding: 0;\n}\n.toggle-menu[data-v-be6e199e] {\n    margin-left: -15%;\n}\n@media (max-width: 576px) {\n.col-2[data-v-be6e199e] {\n        margin-left: -15% !important;\n}\n.col-10[data-v-be6e199e] {\n        min-width: 100% !important;\n}\n.links[data-v-be6e199e] {\n        text-align: center;\n        padding: 4px 8px;\n}\n.links .btn[data-v-be6e199e] {\n        margin: 0 4px;\n}\n}\n.fade-enter[data-v-be6e199e],\n.fade-leave-to[data-v-be6e199e] {\n    opacity: 0\n}\n.fade-enter-active[data-v-be6e199e],\n.fade-leave-active[data-v-be6e199e] {\n    transition: opacity .2s;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.col-2[data-v-be6e199e] {\n    max-width: 15%;\n    transition: margin .5s;\n    padding: 0;\n    background-color: #212529 !important;\n}\n.col-10[data-v-be6e199e] {\n    min-width: 85%;\n    transition: all .5s;\n    padding: 0;\n}\n.col-12[data-v-be6e199e] {\n    min-width: 100%;\n    transition: all .5s;\n    padding: 0;\n}\n.toggle-menu[data-v-be6e199e] {\n    margin-left: -15%;\n}\n@media (max-width: 576px) {\n.col-2[data-v-be6e199e] {\n        margin-left: -15% !important;\n}\n.col-10[data-v-be6e199e] {\n        min-width: 100% !important;\n}\n.links[data-v-be6e199e] {\n        text-align: center;\n        padding: 4px 8px;\n}\n.links .btn[data-v-be6e199e] {\n        margin: 0 4px;\n}\n}\n.fade-enter[data-v-be6e199e],\n.fade-leave-to[data-v-be6e199e] {\n    opacity: 0\n}\n.fade-enter-active[data-v-be6e199e],\n.fade-leave-active[data-v-be6e199e] {\n    transition: opacity .2s;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23929,7 +23929,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#app {\n    overflow: hidden;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#app {\n    overflow: hidden;\n}\n.navbar {\n    background-color: #e36b13 !important\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -23953,7 +23953,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.coluna-lateral[data-v-f211e784] {\n    padding: 0;\n    min-height: calc(100vh - 40px);\n    overflow: hidden;\n}\n.coluna-lateral li a[data-v-f211e784] {\n    display: block;\n    padding: 8px 15px;\n    color: rgba(255, 255, 255, .8);\n    background: transparent;\n    border-left: 2px solid transparent;\n}\n.coluna-lateral li a[data-v-f211e784]:hover,\n.coluna-lateral a.active[data-v-f211e784] {\n    background: #41484f;\n    text-decoration: none;\n    color: white;\n    border-left: 2px solid rgb(15, 163, 226);\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.coluna-lateral[data-v-f211e784] {\n    margin-top: 10px;\n    padding: 0;\n    min-height: calc(100vh - 40px);\n    overflow: hidden;\n    background-color: #212529;\n}\n.coluna-lateral li a[data-v-f211e784] {\n    display: block;\n    padding: 8px 8px;\n    color: rgba(255, 255, 255, .8);\n    background: transparent;\n    border-left: 2px solid transparent;\n    margin: 0 10px;\n    border-radius: 4px;\n}\n.coluna-lateral a.active[data-v-f211e784] {\n    color: white;\n    background-color: #e36b13 !important;\n    margin: 0 10px;\n    border-radius: 4px;\n    text-decoration: none;\n}\n.coluna-lateral li a[data-v-f211e784]:hover {\n    color: white;\n    background-color: #373d42;\n    margin: 0 10px;\n    border-radius: 4px;\n    text-decoration: none;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -46634,38 +46634,38 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("aside", [
-    _c("div", { staticClass: "coluna-lateral text-white bg-dark" }, [
+    _c("div", { staticClass: "coluna-lateral text-white" }, [
       _c("ul", { staticClass: "list-unstyled" }, [
         _c(
           "li",
           [
             _c("router-link", { attrs: { to: "/" } }, [
-              _c("i", { staticClass: "fas fa-tachometer-alt mr-1" }),
+              _c("i", { staticClass: "fas fa-tachometer-alt mr-2" }),
               _vm._v(" Painel\n                ")
             ]),
             _vm._v(" "),
             _c("router-link", { attrs: { to: "/produtos" } }, [
-              _c("i", { staticClass: "fas fa-box-open mr-1" }),
+              _c("i", { staticClass: "fas fa-box-open mr-2" }),
               _vm._v(" Produtos\n                ")
             ]),
             _vm._v(" "),
             _c("router-link", { attrs: { to: "/registrar-venda" } }, [
-              _c("i", { staticClass: "fas fa-cart-plus mr-1" }),
+              _c("i", { staticClass: "fas fa-cart-plus mr-2" }),
               _vm._v(" Registrar Venda\n                ")
             ]),
             _vm._v(" "),
             _c("router-link", { attrs: { to: "/vendas" } }, [
-              _c("i", { staticClass: "fas fa-shopping-cart mr-1" }),
+              _c("i", { staticClass: "fas fa-shopping-cart mr-2" }),
               _vm._v(" Vendas\n                ")
             ]),
             _vm._v(" "),
             _c("router-link", { attrs: { to: "/categorias" } }, [
-              _c("i", { staticClass: "fas fa-folder mr-1" }),
+              _c("i", { staticClass: "fas fa-folder mr-2" }),
               _vm._v(" Categorias\n                ")
             ]),
             _vm._v(" "),
             _c("router-link", { attrs: { to: "/relatorios" } }, [
-              _c("i", { staticClass: "fas fa-chart-pie mr-1" }),
+              _c("i", { staticClass: "fas fa-chart-pie mr-2" }),
               _vm._v(" Relatórios\n                ")
             ])
           ],
@@ -46747,8 +46747,10 @@ var render = function() {
                       on: { click: _vm.logout }
                     },
                     [
-                      _c("i", { staticClass: "fas fa-power-off fa-sm" }),
-                      _vm._v(" Sair\n                    ")
+                      _c("i", {
+                        staticClass: "fas fa-sign-out-alt fa-sm mr-1 text-muted"
+                      }),
+                      _vm._v(" strong\n                    ")
                     ]
                   )
                 ]

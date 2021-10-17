@@ -15,7 +15,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="my-dropdown">
                         <a class="dropdown-item" href="#" @click="logout">
-                            <i class="fas fa-power-off fa-sm"></i> Sair
+                            <i class="fas fa-sign-out-alt fa-sm mr-1 text-muted"></i> strong
                         </a>
                     </div>
                 </li>
